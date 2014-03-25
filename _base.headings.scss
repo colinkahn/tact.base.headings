@@ -1,0 +1,56 @@
+/*------------------------------------*\
+  #HEADINGS
+\*------------------------------------*/
+
+h1, h2, h3, h4, h5, h6 {
+  margin-bottom: $tact-vertical-spacing;
+  font-weight: bold;
+}
+
+
+
+
+
+h1 {
+  @include tact-font-size($tact-heading-size-1);
+}
+
+
+
+
+
+h2 {
+  @include tact-font-size($tact-heading-size-2);
+}
+
+
+
+
+
+h3 {
+  @include tact-font-size($tact-heading-size-3);
+}
+
+
+
+
+
+h4 {
+  @include tact-font-size($tact-heading-size-4);
+}
+
+
+
+
+
+h5 {
+  @include tact-font-size($tact-heading-size-5);
+}
+
+
+
+
+
+h6 {
+  @include tact-font-size($tact-heading-size-6);
+}
